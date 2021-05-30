@@ -1,0 +1,16 @@
+{
+  "name": "automation_cypress",
+  "version": "1.0.0",
+  "description": "automatyzacjatestow",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js",
+    "cy:run": "cypress run"
+  },
+  "author": "justyna drag",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.4.0",
+    "typescript": "^4.3.2"
+  }
+}
