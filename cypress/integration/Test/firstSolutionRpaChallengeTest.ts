@@ -19,7 +19,7 @@ describe("RPA challenge test", () => {
       email: challengeData.email,
       phoneNumber: challengeData.phoneNumber,
     };
-//Reference to the 'FillForm' class and methods for specific text fields. 
+//Reference to the 'FillFormPageFirstSolution' class and methods for specific text fields. 
     context(`Fill form for ${data.firstName} ${data.lastName}`, () => {
       it(`Succesfully completed form for ${data.firstName} ${data.lastName}`, () => {
         fillForm.firstName.type(data.firstName);
