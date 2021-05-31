@@ -26,7 +26,7 @@ class FillFormPageSecondSolution {
 
         return this;
     }
-    
+
     clickSubmit() {
         cy.get(`${formElementsSecondSolution.submitButton}`).click();
     }
@@ -35,4 +35,5 @@ class FillFormPageSecondSolution {
         cy.contains('Congratulations!')
     }
 }
+
 export default FillFormPageSecondSolution;
