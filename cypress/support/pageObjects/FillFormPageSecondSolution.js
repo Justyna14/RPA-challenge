@@ -14,7 +14,6 @@ class FillFormPageSecondSolution {
         return this;
     }
     
-
     fillAllDataOnPage(firstName, lastName, companyName, roleInCompany, address, email, phoneNumber) {
         
         cy.get(`${formElementsSecondSolution.firstName}`).type(firstName);
@@ -27,6 +26,7 @@ class FillFormPageSecondSolution {
 
         return this;
     }
+    
     clickSubmit() {
         cy.get(`${formElementsSecondSolution.submitButton}`).click();
     }
