@@ -2,7 +2,7 @@
 import FillFormSecondSolution from "../../support/pageObjects/FillFormPageSecondSolution"
 const testData = require("../../fixtures/testData.json");
 
-describe("RPA challenge test", () => {
+describe("RPA challange test", () => {
   it("visit on page RPA Challange", () => {
     const fillForm = new FillFormSecondSolution;
     fillForm.visit();
@@ -22,7 +22,7 @@ describe("RPA challenge test", () => {
     };
 
     context(`Fill form for ${data.firstName} ${data.lastName}`, () => {
-      it(`Succesfully completed form for ${data.firstName} ${data.lastName}`, () => {
+      it(`Successfully completed form for ${data.firstName} ${data.lastName}`, () => {
         const fillForm = new FillFormSecondSolution;
       
         fillForm.fillAllDataOnPage(data.firstName, data.lastName, data.companyName, data.roleInCompany, data.address, data.email, data.phoneNumber);
