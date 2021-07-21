@@ -3,8 +3,8 @@ import { fillForm } from "../../support/pageObjects/FillFormPageFirstSolution"
 const testData = require("../../fixtures/testData.json");
 
 //use visit() method and click "start"
-describe("RPA challange test", () => {
-  it("visit on page RPA Challange", () => {
+describe("RPA challenge test", () => {
+  it("visit on page RPA Challenge", () => {
     fillForm.visit();
     fillForm.startButton.click();
   });

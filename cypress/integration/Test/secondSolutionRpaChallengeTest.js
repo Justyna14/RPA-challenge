@@ -3,8 +3,8 @@ import FillFormSecondSolution from "../../support/pageObjects/FillFormPageSecond
 const testData = require("../../fixtures/testData.json");
 
 //use visit() method and click "start"- Here, actions on elements have been placed in methods
-describe("RPA challange test", () => {
-  it("visit on page RPA Challange", () => {
+describe("RPA challenge test", () => {
+  it("visit on page RPA Challenge", () => {
     const fillForm = new FillFormSecondSolution;
     fillForm.visit();
     fillForm.clickStartButton()
